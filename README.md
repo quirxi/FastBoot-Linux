@@ -2,8 +2,8 @@
 This is an updated version of the AVR bootloader ['FastBoot'](https://www.mikrocontroller.net/topic/146638) from Peter Dannegger. 
 It compiles code for the ATmega328 and ATmega328P and is tested under debian 9.4 (stretch) with avr-gcc 4.9.2.
 
-The fastboot file [*fastboot_build30.tar.gz*](https://www.mikrocontroller.net/topic/146638#5100608) was patched with the newer [*get_avr_arch.sh*](https://www.mikrocontroller.net/topic/146638#5269483).
-Then them missing **m328def.inc** and **m328Pdef.inc** for ATmega328 and ATmega328P were added and integrated into the Makefiles.
+The fastboot file ['fastboot_build30.tar.gz'](https://www.mikrocontroller.net/topic/146638#5100608) was patched with the newer ['get_avr_arch.sh'](https://www.mikrocontroller.net/topic/146638#5269483).
+Then the missing *m328def.inc* and *m328Pdef.inc* for *ATmega328* and *ATmega328P* were added and integrated into the Makefiles.
 The last modification was the addition of the avr include files in the avr directory and integration into the Makefiles aswell.
 
 
